@@ -1,2 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Grid</title>
+    <style>
 
+        .square-1{
+            display:grid;
+            grid-template-columns: 60% 50% 30%;
+            grid-column-gap:2em;
+            grid-row-gap:2em;
+        }
+
+
+        .square-1 > div{
+         background:greenyellow;
+            padding:2em;
+        }
+        .square-1 > div:nth-child(odd){
+            background:green;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="square-1">
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+            </p>
+        </div>
+
+        <div>
+
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+                Sample text, Sample text,
+
+            </p>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
 
